@@ -1,4 +1,4 @@
-import { Typography, AppBar, Card, CardActions, CardMedia, CssBaseline, Grid, ToolBar, Container } from "@mui/material"
+import { Typography, AppBar, Card, CardActions, CardMedia, CssBaseline, Grid, Toolbar, Container } from "@mui/material"
 import { PhotoCamera } from "@mui/icons-material"
 
 const App = () => {
@@ -6,15 +6,13 @@ const App = () => {
         <>
         <CssBaseline />
         <AppBar position="relative">
-            <ToolBar>
+            <Toolbar>
                 <PhotoCamera />
                 <Typography variant="h6">Photo Album</Typography>
-            </ToolBar>
+            </Toolbar>
         </AppBar>
-
     </>
   )
-  }
-
+}
 
 export default App
